@@ -185,18 +185,19 @@ h1 {
 }
 
 .aec-product-skin1 .aec-product-img {
-    height: 250px;
+    /* height: 250px; */
     overflow: hidden;
     /* background-color: var(--off-white); */
     transition: all 0.3s ease-in-out;
     background: var(--off-white);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
+    padding: 10px;
 }
 
 .aec-product-skin1 .aec-product-img img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin: auto;
     position: relative;
     transition: all 0.3s ease-in-out;
